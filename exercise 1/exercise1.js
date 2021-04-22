@@ -1,4 +1,5 @@
 //1
-const texto = texto => {
-  return texto
+const text = text => {
+  return text
 }
+module.exports = text
