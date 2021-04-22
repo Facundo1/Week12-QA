@@ -1,8 +1,8 @@
 //5
-const division = (dividendo, divisor) => {
+const division = (dividend, divider) => {
   if (divisor === 0) {
-    return 'No se puede dividir por 0'
+    return 'cannot be divided by zero'
   } else {
-    return dividendo / divisor
+    return dividend / divider
   }
 }
