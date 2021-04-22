@@ -1,4 +1,4 @@
-//2
-const suma = (sumandoA, sumandoB) => {
-  return sumandoA + sumandoB
+const sum = (sumA, sumB) => {
+  return sumA + sumB
 }
+module.exports = sum
