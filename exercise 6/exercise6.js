@@ -1,6 +1,8 @@
 //6
-const tablaMultiplicar = (multiplicando, multiplicador) => {
-  if (multiplicador === undefined) return (multiplicador = 10)
-  for (i = 0; i <= multiplicador; i++)
-    return multiplicando + ' x', i + ' = ', multiplicando * i
+const multiplicationTable = (multiplying, multiplier) => {
+  if (multiplier === undefined) return (multiplier = 10)
+  for (i = 0; i <= multiplier; i++)
+    return multiplying + ' x', i + ' = ', multiplying * i
 }
+
+module.exports = multiplicationTable

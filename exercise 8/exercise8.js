@@ -1,7 +1,8 @@
 //8
-const anidada = (a, b) => {
-  function cuadrado(x) {
+const nested = (a, b) => {
+  function square(x) {
     return x * x
   }
-  return cuadrado(a) + cuadrado(b)
+  return square(a) + square(b)
 }
+module.exports = nested

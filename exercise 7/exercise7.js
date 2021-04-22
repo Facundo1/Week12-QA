@@ -1,4 +1,6 @@
 //7
-const potencia = (base, exponente) => {
-  return Math.pow(base, exponente)
+const potency = (base, exponent) => {
+  return Math.pow(base, exponent)
 }
+
+module.exports = potency

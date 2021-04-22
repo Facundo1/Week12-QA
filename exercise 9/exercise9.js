@@ -1,9 +1,11 @@
 //9
-const cerosIzq = (num, totalLength) => {
+const leftZero = (num, totalLength) => {
   var numStr = num.toString()
-  var numCeros = totalLength - numStr.length
-  for (var i = 1; i <= numCeros; i++) {
+  var numZeros = totalLength - numStr.length
+  for (var i = 1; i <= numZeros; i++) {
     numStr = '0' + numStr
   }
   return numStr
 }
+
+module.exports = leftZero
