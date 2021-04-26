@@ -1,7 +1,7 @@
 const multiplicationTable = require('./exercise6')
 
 test('if multiplier is undefined then multiplicador is equal to 10', () => {
-  expect(multiplicationTable(5)).toEqual([
+  expect(multiplicationTable(5, undefined)).toEqual([
     0,
     5,
     10,
